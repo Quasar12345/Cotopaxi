@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Francois+One&family=Limelight&family=Roboto+Serif:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+/*Body*/
+body, html {
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+    p{
+     
+        font-family: Roboto;
+        font-size: 20px;
+        line-height: 3rem;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+  
+*/
+/*carrousel*/
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+div.titulo h2{
+    margin: 10px 10px 15px 18px;
+    font-size: 40px;
+    color: #7a1578;
+    text-align: center;
+}
+
+div.titulo p{
+    /* margin: 10px 20px 15px 24px; */
+    width: 80%;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #000;
+}
+
+div.categoria h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#0d2732
+}
+
+div.categoria p{
+    text-align: center;
+    font-size: 35px;
+}
+
+.cat-container-imagenes{
+    display: flex;
+    justify-content: center;
+}
+.cat-container-imagenes img{
+    padding: 50px 40px 40px;
+    object-fit: cover;/* Mantiene la proporción y llena el contenedor */
+}
+
+.gatronomicas h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #7a1578;
+}
+
+.gastro-container-imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.gastro-container-imagenes img{
+    padding: 50px 40px 40px;
+    object-fit: cover;
+}
+
+.gastro-container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.gastro-container-img img{
+    padding: 50px 40px 40px;
+    object-fit: cover;
+}
+
+.act-naturaleza h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#7a1578;
+}
+
+.nat-container-imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.nat-container-imagenes img{
+    padding: 50px 40px 40px;
+    object-fit: cover;
+}
+.nat-container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.nat-container-img img{
+    padding: 50px 40px 40px;
+    object-fit: cover;/* Mantiene la proporción y llena el contenedor */
+}
+
+
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+i{
+    font-size: 2.5rem;
+    align-items: flex-end;
+    text-align: right;
+}

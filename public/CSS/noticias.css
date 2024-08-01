@@ -1,0 +1,117 @@
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Card*/
+body,html{
+    overflow-x: hidden;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+}
+
+.custom-img {
+width: 100%;
+height: 300px;
+object-fit: contain;
+}
+
+.card{
+    width: 18rem;
+    height: 360px;
+    background-color: rgb(148, 148, 148);
+    margin: 25px 50px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(255, 254, 254, 0.2);
+    transition: all 400ms ease;
+    background-size: cover;
+    margin: 15px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px  #7a1578;
+    transform: translateY(-3%);
+}
+/*CARD*/
+
+.carusel{
+    width: 100%;
+    height: 200px;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+
+
+.titulo{
+    align-items: center;
+    justify-content: center;
+    color: #7a1578;
+    text-align: center;
+}
+
+.titulo-slideCarrusel{
+    align-items: center;
+    justify-content: center;
+    color: #fcfcfc;
+    text-align: center;
+}
+
+p{
+    width: 80%;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 3rem;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+
+/* extras */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 0px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.contenedor-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-red {
+    background: red;
+}
+  
